@@ -6,9 +6,9 @@ import {
   ControlLabel,
   Button
 } from "react-bootstrap";
-import "./Cform.css";
+import "./Form.css";
 
-export default class Cform extends Component {
+export default class form extends Component {
   render() {
     return (
       <div class="container">

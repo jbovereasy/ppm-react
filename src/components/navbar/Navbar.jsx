@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import "./Cnavbar.css";
-import mainlogo from "./../assets/ppm.svg";
+import "./Navbar.css";
+import mainlogo from "./../../assets/ppm.svg";
 
-export default class Cnavbar extends Component {
+export default class navbar extends Component {
   render() {
     return (
       <Navbar inverse collapseOnSelect>
